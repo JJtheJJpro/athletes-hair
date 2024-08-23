@@ -1,0 +1,11 @@
+div.topbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+p {
+    padding: 4px;
+}
