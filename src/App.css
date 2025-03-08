@@ -1,11 +1,47 @@
 div.topbar {
-    position: absolute;
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     display: flex;
     width: 100%;
     background-color: transparent;
 }
 
+div.cscroll {
+    position: relative;
+    top: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+div.scroll {
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+div.voteimage {
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+div.image {
+    border-bottom: 1px solid white;
+}
+
+div.vote {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
 p {
-    padding: 4px;
+    padding: 200px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
