@@ -37,8 +37,14 @@ div.vote {
     display: flex;
 }
 
-p {
+p,
+img {
     padding: 200px;
+}
+
+img.upload {
+    padding: 0;
+    max-width: 400px;
 }
 
 h4 {
