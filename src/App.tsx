@@ -1,4 +1,4 @@
-import { Button, DialogContent, DialogTitle, List, ListItem, ListItemContent, Modal, ModalClose, ModalDialog, Stack, Tab, TabList, Tabs, Typography } from '@mui/joy'
+import { Button, DialogContent, DialogTitle, List, ListItem, ListItemContent, Modal, ModalClose, ModalDialog, Stack, Tab, TabList, Tabs } from '@mui/joy'
 import './App.css'
 import '@mui/joy'
 import { useState } from 'react'
@@ -22,7 +22,7 @@ function VoteImage(props: { image?: Uint8Array }) {
     )
 }
 
-function VoteImageList(props: { year: number }) {
+function VoteImageList(_props: { year: number }) {
     // To handle getting the list from specified year
     return (
         <div className='cscroll'>
